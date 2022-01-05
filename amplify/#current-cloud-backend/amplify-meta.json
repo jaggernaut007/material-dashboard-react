@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify6dd370a2ba2c4-staging-174955-authRole",
+      "UnauthRoleArn": "arn:aws:iam::909811276374:role/amplify-amplify6dd370a2ba2c4-staging-174955-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::909811276374:role/amplify-amplify6dd370a2ba2c4-staging-174955-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-amplify6dd370a2ba2c4-staging-174955-deployment",
+      "UnauthRoleName": "amplify-amplify6dd370a2ba2c4-staging-174955-unauthRole",
+      "StackName": "amplify-amplify6dd370a2ba2c4-staging-174955",
+      "StackId": "arn:aws:cloudformation:us-west-2:909811276374:stack/amplify-amplify6dd370a2ba2c4-staging-174955/ba4daa20-6d86-11ec-b983-06f648b1e0b3",
+      "AmplifyAppId": "dqrycab62qnih"
+    }
+  },
+  "auth": {
+    "materialdashboardrea489d3ceb": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify6dd370a2ba2c4-staging-174955-deployment/amplify-cfn-templates/auth/materialdashboardrea489d3ceb-cloudformation-template.json",
+        "logicalId": "authmaterialdashboardrea489d3ceb"
+      },
+      "lastPushTimeStamp": "2022-01-05T09:18:45.341Z",
+      "output": {
+        "UserPoolId": "us-west-2_cuuUPPImQ",
+        "AppClientIDWeb": "3k72fvo9gk81aec6u6n3247u3v",
+        "AppClientID": "2n35k3k5r80tkclomoa7cbbjkj",
+        "IdentityPoolId": "us-west-2:541b5777-76f3-47cf-947d-eb5726318c5b",
+        "UserPoolArn": "arn:aws:cognito-idp:us-west-2:909811276374:userpool/us-west-2_cuuUPPImQ",
+        "IdentityPoolName": "materialdashboardrea489d3ceb_identitypool_489d3ceb__staging",
+        "UserPoolName": "materialdashboardrea489d3ceb_userpool_489d3ceb"
+      },
+      "lastPushDirHash": "WVjiTM3D3incf0PcQTYEgCOJQHU="
+    }
+  }
+}
